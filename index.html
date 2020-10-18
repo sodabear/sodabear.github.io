@@ -1,0 +1,67 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+
+    <style amp-custom>
+    #main {
+        position: absolute;
+        margin: 5%;
+        margin-top: 8%;
+        color: #333;
+        font-family: 'Lora', serif;
+        font-size: 140%;
+        line-height: 150%;
+    }
+
+    @media screen and (min-width: 992px) {
+        #main {
+            left: 15%;
+            right: 35%;
+        }
+    }
+
+    a {
+        color: inherit;
+    }
+
+    ::selection {
+        background: yellow;
+    }
+
+    ::-moz-selection {
+        background: yellow;
+    }
+    </style>
+
+  </head>
+    <body>
+      <div id="main">
+        <h3>Hi, I'm Zihao Jing.</h3>
+        <p>
+        I'm a software engineer at <a href="http://english.sse.com.cn/" target="_blank" rel="noopener noreferrer">Shanghai Stock Exchange</a>. I worked at  <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon Website Service</a>.
+        <p>
+
+
+        <p>
+        I graduated in 2015 from UC Berkeley, where I studied applied math and computer science.
+        <p>
+        Find me on <a href="http://github.com/sodabear" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </div>
+
+      <amp-analytics type="googleanalytics">
+      <script type="application/json"> {
+        "vars": {
+  	       "account": "UA-49126820-1"
+        },
+        "triggers": {
+  	    "trackPageview": {
+  	       "on": "visible",
+  	       "request": "pageview"
+  	     }
+        }
+      }
+      </script>
+
+      </amp-analytics>
+    </body>
+</html>
